@@ -176,17 +176,17 @@ client.on("guildCreate", guild => {
       fields: [
         {
           name: "My Prefixes",
-          value: "My default prefixes are `-` and `@Onyx#4347`"
+          value: "My default prefixes are `-`."
         },
         {
-          name: "Seeing All Of My Commands",
+          name: "Looking All Of My Commands",
           value:
             "In this DM, you can see all of my commands by typing `help` and you can run commands in this DM by typing `command` (I don't require any prefix in DMs)."
         },
         {
           name: ":film_frames: Watch YouTube Videos",
           value:
-            "If you want to search for YouTube videos, just type yt or -yt in a server, accompanied by keywords.\nEg: `-yt greyhound swedish house mafia`\nThis is one of Onyx's most popular commands!"
+            "If you want to search for YouTube videos, just type yt or -yt in a server, accompanied by keywords.\nEg: `-yt Rick Astley - Never give you up`\nThis is one of Onyx's most popular commands!"
         },
         {
           name: ":star: React With GIFs or Stickers",
@@ -196,16 +196,16 @@ client.on("guildCreate", guild => {
         {
           name: "See All My Commands",
           value:
-            "Visit my [official website](https://silvia-odwyer.github.io/Onyx-Discord-Bot-Website/), for all my commands! ^^ <3"
+            "Visit my [official website](https://silvia-odwyer.github.io/Onyx-Discord-Bot-Website/), for all my commands! ^^ <3 and Nad is a ceo too ;)"
         },
         {
           name: "Getting Help & Support",
           value:
-            "Have a bug to report? Want to chat to Onyx's maintainer? Join [Onyx's Support Server](https://discord.gg/cSWHaEK), a fun community that gets insider access to Onyx's development. \n Or add @Silvia923#9909 on Discord, I'm always here to chat."
+            "Have a bug report? Go to bot-bug channel and ping the server admin!"
         }
       ],
       footer: {
-        text: "Coded by Silvia923#9909 <3"
+        text: "Don't add this bot because this is private integration"
       }
     }
   });
@@ -242,7 +242,7 @@ client.registry
     ["util", "Util"],
     [
       "media",
-      "Media commands: Search for stickers & GIFs, make memes, make qr codes/captchas, etc.,"
+      "Media commands: Search for stickers & GIFs, make memes, make qr codes/captchas, or anything you want.,"
     ],
     [
       "fun",
@@ -250,7 +250,7 @@ client.registry
     ],
     [
       "search",
-      "Search commands: Search YouTube, ask Onyx questions, get answers to anything, get data, definitions, etc.,"
+      "Search commands: Search YouTube, ask The questions, get answers to anything, get data, definitions, etc.,"
     ],
     [
       "message_formatting",
@@ -266,7 +266,7 @@ client.registry
     ],
     [
       "meta",
-      "Meta commands: Get info about your server, about Onyx, who coded her, etc.,"
+      "Meta commands: Get info about your server, about this bot, who coded her (don't ask the some questions let), etc.,"
     ]
   ])
   .registerDefaultGroups()
