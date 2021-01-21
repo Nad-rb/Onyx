@@ -35,7 +35,7 @@ module.exports = class HelpCommand extends commando.Command {
             prefix = ""
         }
         else if (channel_type === "group") {
-            prefix = "@Onyx#4347"
+            prefix = "+"
         }
         else {
             // Check Prefix
@@ -122,7 +122,7 @@ module.exports = class HelpCommand extends commando.Command {
                     embed: {
                         color: randomColour,
                         author: {
-                            name: "Onyx",
+                            name: "Arz Mod",
                             icon_url: this.client.user.avatarURL
                         },
                         title: `Command Info: ${args}`,
@@ -139,7 +139,7 @@ module.exports = class HelpCommand extends commando.Command {
                         ],
                         footer: {
                             icon_url: this.client.user.avatarURL,
-                            text: "Coded by Silvia923#9909 <3"
+                            text: "OOOOOOOOOOOOOOOOF"
                         }
                     }
                 });
