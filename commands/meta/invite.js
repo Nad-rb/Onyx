@@ -10,9 +10,9 @@ module.exports = class InviteCommand extends commando.Command {
             aliases: [],
             group: 'meta',
             memberName: 'invite',
-            description: "Get Onyx's invite link, so that she can be invited to other servers.",
+            description: "Get the bot's invite link, so that she can be invited to other servers.",
             details: oneLine`
-            Get Onyx's invite link, so that she can be invited to other servers.
+            Get Onyx's invite link, so that she can be invited to other servers, but it still working in progress. You can add the bot called Onyx.
 			`,
             examples: ["invite"],
 
@@ -25,7 +25,7 @@ module.exports = class InviteCommand extends commando.Command {
         var randomNumber = getRandomNumber(0, colour_array.length - 1);
         var randomColour = colour_array[randomNumber];
 
-        var onyx_invite_link = "https://discordapp.com/oauth2/authorize?&client_id=444948120573313024&scope=bot&permissions=0"
+        var onyx_invite_link = "https://discordapp.com/oauth2/authorize?&client_id=444948120573313024&scope=bot&permissions=8"
         msg.channel.send(
             {
                 embed: {
